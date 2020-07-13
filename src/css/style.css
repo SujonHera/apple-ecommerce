@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;700; 800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;  
+}
+
+body {
+    font-weight: lighter;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Navbar Section */
+.navbar{
+    background: #000000ed !important;
+}
+.navbar-brand .logo{
+    width: 30px;
+}
+ /* Carousel Section */
+.card {
+    background-color: #222;
+    padding: 5rem 4rem 3rem;
+    color: #fff;
+}
+.card h1{
+    font-weight: 400 !important;
+}
+.card figure img{
+    width: 350px;
+    height: 400px;
+}
+
+.card .row {
+    margin: 0;
+}
+
+.card .col-19,
+.col-md-9 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+ .path {
+    color: gray;
+    margin-bottom: 16px;
+}
+.path p{
+    font-size: 14px;
+}
+.card .path a {
+    color: rgb(255, 217, 0);
+    text-decoration: none;
+}
+
+.card .carousel-info {
+    padding: 6vh 0vh;
+}
+
+.card .carousel-info .heart-icon {
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.card .carousel-info .heart-icon:hover {
+    color: rgb(255, 217, 0);
+}
+
+.card .carousel-info .star {
+    color: rgb(255, 217, 0);
+    margin-right: 10px;
+}
+
+.card .carousel-info .price {
+    margin-right: 32px;
+}
+
+.card .carousel-info .price label span {
+    color: white;
+    background-color: #111;
+    padding: 12px 25px;
+    display: inline-block;
+    margin: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .carousel-info .price label span b {
+    display: block;
+
+}
+#review{
+    margin-left: 20px;
+}
+label input:checked+span {
+    border: 1px solid rgb(255, 217, 0);
+
+}
+
+label input:checked+span b {
+    color: rgb(255, 217, 0);
+}
+
+label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.carousel-control-prev {
+    width: 0;
+}
+
+.carousel-control-next {
+    left: 10vh;
+}
+
+.lower .btn {
+    background: transparent;
+    border-color: rgb(255, 217, 0);
+    color: rgb(225, 217, 0);
+    padding: 8px 15px;
+
+}
+
+.lower .btn:hover {
+    color: #fff;
+    border-color: white;
+    transition: 1s all ease-in;
+}
+
+/* iPhone Section */
+
+.iphone-se{
+    background-color: #131313;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+}
+.iphone-se-text{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    padding-top: 120px;
+}
+.iphone-se-text p{
+    font-size: 15px;
+}
+.link{
+    margin-top: 25px;
+}
+.link a{
+    font-size: 18px;
+    font-weight: 700;
+}
+.link a:hover{
+    text-decoration: 1.5px;
+}
+.iphone-11{
+    background: #fafafa;
+}
